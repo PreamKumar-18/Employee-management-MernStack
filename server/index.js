@@ -21,7 +21,7 @@ app.listen(5000,() =>{
     console.log("Server Started On 5000")
 })
 
-mongoose.connect("mongodb+srv://Preamkumar:Preamkumar18@cluster0.b2yr8g4.mongodb.net/test", (err) => {
+mongoose.connect("", (err) => {
     if(!err){
         console.log("DB Connected Successfully")
     }
